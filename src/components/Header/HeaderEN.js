@@ -32,7 +32,7 @@ const HeaderEN = () =>  (
       </li>
     </Div2>
     <Div3>
-        <Link href="/">
+        <Link href="https://e-svarog.github.io/En">
           <NavLink style={{marginBottom:"10px"}}>Русский</NavLink>
         </Link>
       <SocialIcons href="https://github.com/e-Svarog">
