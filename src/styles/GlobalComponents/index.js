@@ -170,11 +170,12 @@ export const ButtonBack = styled.div`
   width: ${({ alt }) => alt ? '150px' : '262px'};
   height: ${({ alt }) => alt ? '52px' : '64px'};
   border-radius: 50px;
-  font-size: ${({ alt }) => alt ? '20px' : '24px'};
+  font-size: ${({ alt }) => alt ? '16px' : '20px'};
   font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
+  white-space: nowrap;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
   background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
@@ -212,7 +213,7 @@ export const ButtonFront = styled.button`
   background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
-  font-size: ${({ alt }) => alt ? '20px' : '24px'};
+  font-size: ${({ alt }) => alt ? '16px' : '20px'};
   font-weight: 600;
   align-items: center;
   justify-content: center;

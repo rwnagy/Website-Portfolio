@@ -25,7 +25,7 @@ const ProjectsEN = () => (
               ))}
             </TagList>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
+              <ExternalLinks href={source}>Code</ExternalLinks>
               <ExternalLinks href={visit}>Source</ExternalLinks>
             </UtilityList>
           </div>

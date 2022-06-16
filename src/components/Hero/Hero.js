@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Я внештатный веб-разработчик
       </SectionText>
-      <Button onClick={() => window.location ="mailto:nagyrw@gmail.com"}>Контакт</Button>
+      <Button onClick={() => window.location ="mailto:nagyrw@gmail.com"}>Свяжитесь Со Мной</Button>
     </LeftSection>
   </Section>
 );

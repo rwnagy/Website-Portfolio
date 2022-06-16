@@ -25,7 +25,7 @@ const Projects = () => (
               ))}
             </TagList>
             <UtilityList>
-              <ExternalLinks href={visit}>Исходный код</ExternalLinks>
+              <ExternalLinks href={source}>Исходный код</ExternalLinks>
               <ExternalLinks href={visit}>Исходный веб-сайт</ExternalLinks>
             </UtilityList>
           </div>
