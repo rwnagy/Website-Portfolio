@@ -17,25 +17,25 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>Проекты</NavLink>
+          <NavLink href="https://rwnagy.github.io/#projects">Проекты</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#technologies">
-          <NavLink>Стек технологий</NavLink>
+          <NavLink href="https://rwnagy.github.io/#technologies">Стек технологий</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#about">
-          <NavLink>Обо мне</NavLink>
+          <NavLink href="https://rwnagy.github.io/#about">Обо мне</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-        <Link href="https://e-svarog.github.io/En">
-          <NavLink style={{marginBottom:"10px"}}>English</NavLink>
+        <Link href="/En">
+          <NavLink href="https://rwnagy.github.io/En" style={{marginBottom:"10px"}}>English</NavLink>
         </Link>
-      <SocialIcons href="https://github.com/e-Svarog">
+      <SocialIcons href="https://github.com/rwnagy">
         <AiFillGithub size="3rem" />
       </SocialIcons>
     </Div3>
