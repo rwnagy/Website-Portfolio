@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
+  height:auto;
   object-fit: cover;
   overflow: hidden;
 `
@@ -36,7 +36,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
+  padding: 20px;
 `;
 
 

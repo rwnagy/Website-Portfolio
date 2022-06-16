@@ -22,7 +22,7 @@ const Header = () =>  (
       </li>
       <li>
         <Link href="#technologies">
-          <NavLink href="https://rwnagy.github.io/#technologies">Стек технологий</NavLink>
+          <NavLink href="https://rwnagy.github.io/#technologies">Стек</NavLink>
         </Link>
       </li>
       <li>
