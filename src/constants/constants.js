@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Система отслеживания ошибок',
-    description: 'Система отслеживания ошибок, построенный на стекле MERN. Он получает текущий активный список разработчиков и приоритетов, а также позволяет пользователям публиковать новые ошибки и удалять Ошибки.',
+    description: 'Простой система отслеживания ошибок, построенный на стеке MERN. Это позволяет пользователям публиковать новые ошибки и удалять активные ошибки с помощью запросов axios.',
       image: '/images/1.jpg',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/rwnagy/bug-tracker/tree/deploy',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Поисковик рецептов',
-    description: 'Приложение React, которое подключается к Spoonful API для поиска рецептов и создания страниц, содержащих рецепты и информацию из данных JSON.',
+    description: 'Приложение React, которое подключается к Spoonful API для поиска рецептов. Он использует поисковые запросы для Spoonful API для получения данных в формате JSON, а затем генерирует страницу рецептов и информации из этих данных.',
     image: '/images/2.jpg',
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/rwnagy/RecipeSearcher',
@@ -39,7 +39,7 @@ export const projects = [
 export const projectsEN = [
   {
     title: 'Bug Tracker',
-    description: "A bug tracker built on a MERN stack. It gets the current active list of Developer and Priorities, and allows users to post new Bugs and delete Bugs.",
+    description: "A simple bug tracker built on a MERN stack. It allows users to post new bugs and delete active bugs with axios requests.",
       image: '/images/1.jpg',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/rwnagy/bug-tracker/tree/deploy',
@@ -48,7 +48,7 @@ export const projectsEN = [
   },
   {
     title: 'Recipe Finder',
-    description:"A React App which connects to Spoonful API to search for recipes and create pages that lay out Recipes and Information from JSON data.",
+    description:"A React App which connects to Spoonful API to search for recipes. It uses search queries for Spoonful API to recieve JSON data, and then generates a recipe and information page from the data.",
     image: '/images/2.jpg',
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/rwnagy/RecipeSearcher',

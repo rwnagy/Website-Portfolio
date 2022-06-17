@@ -43,7 +43,7 @@ const TechnologiesEN = () =>  (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            опыт работы с <br/>
+            Experience with <br/>
             Figma
           </ListParagraph>
         </ListContainer>
