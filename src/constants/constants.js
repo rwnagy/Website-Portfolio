@@ -16,17 +16,17 @@ export const projects = [
     source: 'https://github.com/rwnagy/RecipeSearcher',
     visit: 'https://rwnagy-recipe-search.netlify.app/',
     id: 1,
+  }
+  {
+    title: 'Спортзал сайт',
+    description: 'Адаптивный веб-дизайн для тренажерного зала, написанный на React.',
+      image: '/images/3.jpg',
+      tags: ['React', 'JavaScript'],
+    source: 'https://github.com/rwnagy/gymWebsite',
+    visit: 'https://nagyrwgymwebsite.netlify.app/',
+    id: 2,
   }];
   /*{
-    title: 'Скоро будет...',
-    description: 'Этот раздел будет обновлен в ближайшее время.',
-      image: '/images/1.jpg',
-      tags: ['React', 'Express.js'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
     title: 'Скоро будет...',
     description: 'Этот раздел будет обновлен в ближайшее время.',
     image: '/images/1.jpg',
@@ -54,17 +54,17 @@ export const projectsEN = [
     source: 'https://github.com/rwnagy/RecipeSearcher',
     visit: 'https://rwnagy-recipe-search.netlify.app/',
     id: 1,
+  }
+  {
+    title: 'Gym Website',
+    description: "Responsive React Website Sample for a Gym",
+      image: '/images/3.jpg',
+      tags: ['React', 'JavaScript'],
+    source: 'https://github.com/rwnagy/gymWebsite',
+    visit: 'https://nagyrwgymwebsite.netlify.app/',
+    id: 2,
   }];
   /*{
-    title: 'Coming Soon',
-    description: "This section will be updated shortly to include the most recent projects.",
-      image: '/images/1.jpg',
-      tags: ['React', 'Express.js'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
     title: 'Coming Soon',
     description: "This section will be updated shortly to include the most recent projects.",
     image: '/images/1.jpg',
