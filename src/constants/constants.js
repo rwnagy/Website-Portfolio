@@ -16,7 +16,7 @@ export const projects = [
     source: 'https://github.com/rwnagy/RecipeSearcher',
     visit: 'https://rwnagy-recipe-search.netlify.app/',
     id: 1,
-  }
+  },
   {
     title: 'Спортзал сайт',
     description: 'Адаптивный веб-дизайн для тренажерного зала, написанный на React.',
@@ -54,7 +54,7 @@ export const projectsEN = [
     source: 'https://github.com/rwnagy/RecipeSearcher',
     visit: 'https://rwnagy-recipe-search.netlify.app/',
     id: 1,
-  }
+  },
   {
     title: 'Gym Website',
     description: "Responsive React Website Sample for a Gym",
